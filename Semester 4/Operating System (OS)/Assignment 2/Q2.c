@@ -221,7 +221,7 @@ void *taskA_hotspots(void *arg) {
         pthread_mutex_unlock(&progress_lock);
     }
 
-    printf("[taskA] Hotspot detection done — %d hotspots found.\n",  hotspot_count);
+    printf("[taskA] Hotspot detection done - %d hotspots found.\n",  hotspot_count);
     pthread_barrier_wait(&barrier_abc);
     return NULL;
 }
@@ -248,7 +248,7 @@ void *taskB_coldspots(void *arg) {
         pthread_mutex_unlock(&progress_lock);
     }
 
-    printf("[taskB] Coldspot detection done — %d coldspots found.\n", coldspot_count);
+    printf("[taskB] Coldspot detection done - %d coldspots found.\n", coldspot_count);
 
     pthread_barrier_wait(&barrier_abc);
     return NULL;
@@ -485,7 +485,7 @@ int main(void) {
             printf("%s ", near_both[i][j] ? " ADJ" : " ---");
         printf("\n");
     }
-    printf("\n\n NOTE: Weighted adjustments are rare due to strict spatial constraints, so they may not appear in a small 5×5 sample, but the global count confirms correctness.");
+    printf("\n\n NOTE: Weighted adjustments are rare due to strict spatial constraints,\n so they may not appear in a small 5x5 sample, but the global count confirms correctness.");
 
     pthread_mutex_destroy(&tile_lock);
     pthread_mutex_destroy(&g_stats.lock);
