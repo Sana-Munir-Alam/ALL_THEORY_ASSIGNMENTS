@@ -1,0 +1,68 @@
+{
+  "Decision Tree": {
+    "bal_acc_cv_mean": 0.96031,
+    "bal_acc_cv_std": 0.0005,
+    "bal_acc_oof": 0.96031,
+    "acc_oof": 0.97443
+  },
+  "Naive Bayes": {
+    "bal_acc_cv_mean": 0.71147,
+    "bal_acc_cv_std": 0.004,
+    "bal_acc_oof": 0.71147,
+    "acc_oof": 0.71625
+  },
+  "Logistic Regression": {
+    "bal_acc_cv_mean": 0.75847,
+    "bal_acc_cv_std": 0.00137,
+    "bal_acc_oof": 0.75847,
+    "acc_oof": 0.72177
+  },
+  "Linear Reg (OvR)": {
+    "bal_acc_cv_mean": 0.51001,
+    "bal_acc_cv_std": 0.00169,
+    "bal_acc_oof": 0.51001,
+    "acc_oof": 0.75545
+  },
+  "K-Means": {
+    "bal_acc_cv_mean": 0.47296,
+    "bal_acc_cv_std": 0.0,
+    "bal_acc_oof": 0.47296,
+    "acc_oof": 0.71163
+  },
+  "Random Forest": {
+    "bal_acc_cv_mean": 0.9564,
+    "bal_acc_cv_std": 0.00175,
+    "bal_acc_oof": 0.9564,
+    "acc_oof": 0.97275
+  },
+  "XGBoost": {
+    "bal_acc_cv_mean": 0.96942,
+    "bal_acc_cv_std": 0.00078,
+    "bal_acc_oof": 0.96942,
+    "acc_oof": 0.98448
+  },
+  "LightGBM": {
+    "bal_acc_cv_mean": 0.9673,
+    "bal_acc_cv_std": 0.00079,
+    "bal_acc_oof": 0.9673,
+    "acc_oof": 0.98386
+  },
+  "CatBoost": {
+    "bal_acc_cv_mean": 0.94097,
+    "bal_acc_cv_std": 0.00064,
+    "bal_acc_oof": 0.94097,
+    "acc_oof": 0.93346
+  },
+  "Ensemble": {
+    "bal_acc_cv_mean": 0.96936,
+    "bal_acc_cv_std": 0.00088,
+    "bal_acc_oof": 0.96936,
+    "acc_oof": 0.98349
+  },
+  "Stacking": {
+    "bal_acc_cv_mean": 0.97103,
+    "bal_acc_cv_std": 0.00081,
+    "bal_acc_oof": 0.97103,
+    "acc_oof": 0.98046
+  }
+}
